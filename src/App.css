@@ -2,37 +2,109 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 50px;
+  line-height: 50px;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(87, 86, 86);
+  border-bottom: 1px solid rgb(204, 203, 203);
+  margin: 0 30%;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  min-height: calc(100vh - 51px);
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.method-5w1h-container {
+  position: relative;
 }
+
+.method-5w1h {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid rgb(204, 203, 203);
+  margin: 15px 40px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+}
+
+.question-container button:hover {
+  cursor: pointer;
+  background-color: #cddafd;
+}
+
+.question-container {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.what-container {
+  top: 0;
+  justify-content: center;
+}
+
+.what-container button {
+  background-color: #ef476f;
+}
+
+.where-container {
+  top: 50px;
+  justify-content: flex-end;
+}
+
+.where-container button {
+  background-color: #ffd166;
+}
+
+.when-container {
+  top: 130px;
+  justify-content: flex-end;
+}
+
+.when-container button {
+  background-color: #06d6a0;
+}
+
+.who-container {
+  top: 200px;
+  justify-content: center;
+}
+
+.who-container button {
+  background-color: #118ab2;
+}
+
+.why-container {
+  width: 50%;
+  top: 130px;
+  justify-content: flex-start;
+}
+
+.why-container button {
+  background-color: #ffafcc;
+}
+
+.how-container {
+  width: 50%;
+  top: 50px;
+  justify-content: flex-start;
+}
+
+.how-container button {
+  background-color: #cdb4db;
+}
+
